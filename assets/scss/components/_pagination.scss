@@ -1,0 +1,23 @@
+.pagination{
+    margin-top: 63px;
+    li .page-link{
+        padding: 4px 11.5px 4px 11.5px;
+        color: $success;
+        border-color: $success;
+        .icon{
+            color: $success;
+        }
+        &:hover{
+            color: white;
+            background-color: $success;
+            .icon{
+                color: white;
+            }
+        }
+
+    }
+    li:first-child .page-link, li:last-child .page-link{
+        padding: 4px;
+    }
+
+}

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>index</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <main class="container font-Lato">
+    <div class="border border-1 d-flex">
+      <%- include('./layout/sidebar'); -%>
+
+        <div class="mainRight">
+          <div class="topbar d-flex justify-content-between align-items-center">
+            <div class="left d-flex align-items-center">
+              <h2 class="title mb-0">Admin</h2>
+              <button type="button" class="addNew btn d-block d-flex pb-0">
+                <span class="material-symbols-outlined icon">
+                  add
+                </span>Add New Admin</button>
+            </div>
+            <div class="right">
+              <button class="search border-0 bg-white">
+                <span class="material-symbols-outlined d-block">
+                  search
+                </span>
+              </button>
+              <button class="bell border-0 bg-white">
+                <span class="material-symbols-outlined d-block">
+                  notifications_active
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="adminTable">
+            <ul class="list-group listTitle flex-row">
+              <li class="list-group-item d-flex align-items-center">ID<span
+                  class="material-symbols-outlined arrow_downward">
+                  arrow_downward
+                </span></li>
+              <li class="list-group-item">Name</li>
+              <li class="list-group-item">Email</li>
+              <li class="list-group-item">Verified</li>
+              <li class="list-group-item"></li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#1</li>
+              <li class="list-group-item">Emir Wicks</li>
+              <li class="list-group-item">emir.wicks@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#2</li>
+              <li class="list-group-item">Zaina Goldsmith</li>
+              <li class="list-group-item">zaina.goldsmith@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#3</li>
+              <li class="list-group-item">Mahima Lopez</li>
+              <li class="list-group-item">mahima.lopezh@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#4</li>
+              <li class="list-group-item">Pharrell Murray</li>
+              <li class="list-group-item">pharrell.murray@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#5</li>
+              <li class="list-group-item">Annika Mcbride</li>
+              <li class="list-group-item">annika.mcbride@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#6</li>
+              <li class="list-group-item">Fatimah Clark</li>
+              <li class="list-group-item">fatimah.clark@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#7</li>
+              <li class="list-group-item">Klaudia Rhodes</li>
+              <li class="list-group-item">klaudia.rhodes@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#8</li>
+              <li class="list-group-item">Tillie Lucero</li>
+              <li class="list-group-item">tillie.lucero@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#9</li>
+              <li class="list-group-item">Sabrina Stephenson</li>
+              <li class="list-group-item">sabrina.stephenson@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+            <ul class="list-group  flex-row admit-item">
+              <li class="list-group-item ">#10</li>
+              <li class="list-group-item">Annie Smith</li>
+              <li class="list-group-item">annie.smith@mail.com</li>
+              <li class="list-group-item">Yes</li>
+              <li class="list-group-item d-flex justify-content-between">
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon visibility">
+                    visibility
+                  </span></a>
+                <a href="#" class="d-block">
+                  <span class="material-symbols-outlined icon edit">
+                    edit
+                  </span></a>
+              </li>
+            </ul>
+          </div>
+          <nav aria-label="Page navigation">
+            <ul class="pagination">
+              <li class="page-item ms-auto">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span class="material-symbols-outlined icon navigate_before d-block">
+                    navigate_before
+                  </span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span class="material-symbols-outlined icon navigate_before d-block">
+                    navigate_next
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+       
+
+    </div>
+
+
+
+
+    </div>
+  </main>
+
+
+
+
+
+
+
+
+  <script type="module" src="../main.js"></script>
+</body>
+
+</html>

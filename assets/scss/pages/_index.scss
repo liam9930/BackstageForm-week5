@@ -1,0 +1,29 @@
+.mainRight{
+    width:984px;
+    padding: 32px;
+    .title{
+        font-size: 24px;
+        line-height: 33px;
+        margin-right: 48px;
+    }
+    .addNew .icon{
+        color: $success;
+        margin-right: 8px;
+    }
+    .adminTable{
+        .list-group.title{
+            border-bottom: 1px solid $gray-900;
+        }
+        .list-group-item{
+            border: 0px;
+        }
+    }
+}
+
+.adminTable{
+    .admit-item:hover{
+        background-color:$gray-100;
+        cursor: pointer;
+    }
+}
+

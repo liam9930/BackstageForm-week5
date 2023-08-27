@@ -1,0 +1,49 @@
+.sidebar {
+    background-color: $gray-100;
+    width: 296px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+
+    .logo {
+        margin-left: 32px;
+        height: 40px;
+        width: 151px;
+        display: block;
+        text-indent: 101%;
+        overflow: hidden;
+        white-space: nowrap;
+        margin-bottom: 19px;
+    }
+
+    .item {
+        margin-top: 13px;
+        margin-bottom: 13px;
+        border-left: 3px solid $gray-100;
+        font-weight: bold;
+    }
+
+    .nav .item:hover {
+        border-color: $success;
+
+        a,.icon{
+            color: $success;
+        }
+    }
+
+    .nav-link,.user-wrap {
+        padding-left: 32px;
+        color: $gray-900;
+    }
+    .user-photo{
+        width:40px;
+        height: 40px;
+        overflow: hidden;
+        margin-right: 16px;
+    }
+    .user-info .email{
+        font-size: 14px;
+        color: $gray-600;
+    }
+
+}
